@@ -1,0 +1,9 @@
+# Query: assets/data
+# ContextLines: 1
+
+1 result - 1 file
+
+lib/data/restaurants_data.dart:
+   9    Future<void> getRestaurants() async {
+  10:     String jsonString = await rootBundle.loadString('assets/restaurants/data.json');
+  11      Map<String, dynamic> data = json.decode(jsonString);
