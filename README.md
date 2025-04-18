@@ -1,6 +1,6 @@
-# myapp
+# TechTaste
 
-A new Flutter project.
+Projeto de um app para celular utilizando flutter desenvolvido na Imersão Mobile da Alura. É um aplicativo de compra de comidas, contendo uma splash screen, uma página inicial mostrando as categorias e restaurantes, uma página mostrando os pratos de cada restaurante e um carrinho de compras.
 
 ## Getting Started
 
