@@ -1,0 +1,2 @@
+C:/Users/usuario/Desktop/Mobile/imers-o-mobile/android/app/.cxx/Debug/5m2g443l/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/usuario/Desktop/Mobile/imers-o-mobile/android/app/.cxx/Debug/5m2g443l/armeabi-v7a/CMakeFiles/rebuild_cache.dir

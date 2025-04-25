@@ -4,6 +4,7 @@ import 'package:myapp/model/restaurants.dart';
 import 'package:myapp/ui/_core/bag_provider.dart';
 import 'package:myapp/ui/_core/widgets/appbar.dart';
 import 'package:provider/provider.dart';
+import 'package:myapp/ui/dish/dish_screen.dart';
 
 class RestaurantScreen extends StatelessWidget {
   final Restaurants restaurant;
@@ -27,7 +28,16 @@ class RestaurantScreen extends StatelessWidget {
               children: List.generate(restaurant.dishes.length, (index) {
                 Dish dish = restaurant.dishes[index];
                 return ListTile(
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) {
+                          return DishScreen(dish: dish, restaurant: restaurant);
+                        },
+                      ),
+                    );
+                  },
                   leading: Image.asset(
                     'assets/dishes/default.png',
                     width: 48,
